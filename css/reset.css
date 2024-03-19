@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Oswald:wght@200..700&family=Satisfy&display=swap');
+
+html {
+    font-size: 70%;
+
+    scroll-behavior: smooth;
+    /*différence avec auto?*/
+}
+
+body {
+    font: 1.7rem "Oswald", sans-serif;
+    margin: 1;
+    line-height: 1.5;
+    font-weight: 220;
+    letter-spacing: 0.1rem;
+    
+  
+}
+
+*,
+/*pourquoi?*/
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(171, 18, 18);
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+}
+figure img{
+    width: 100%;
+}
+
+input button{
+    border: 0;
+    cursor: pointer;
+}
+input {
+    width: 100%;
+}
+button{
+    background: transparent;
+    color: #fff;
+    font-size: inherit;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+    <header>
+        <h1>Formulaire de <em>contact</em></h1>
+    </header>
+    <aside>
+        <figure>
+            <img src="./asset/undraw_studying_re_deca.svg" alt="logo">
+            <figcaption><h2>Description</h2></figcaption>
+        </figure>
+    </aside>
+
+    <main>
+        <fieldset>
+            <legend>Remplir le formulaire</legend>
+            <!-- https://google.com/search?q=html -->
+            <form action="https://google.com/search" method="get"><!--get or post-->
+                <label for="query">Recherche</label>
+
+            <div class="wrapper" role="group" aria-describedby="search submit">
+                <div id="search">
+                <input type="search" name="q" id="query" placeholder="Search" aria-required="true" required>
+                </div>
+                <div id="submit">
+                    <button type="submit">Rechercher</button>
+                </div>
+            </div>
+               
+            </form>
+        </fieldset>
+        
+
+    </main>
+    <footer>
+        <p>
+            &copy; - Nikkô HAMON - <time datetime="2024-19-03">2024</time>
+        </p>
+    </footer>
+</body>
+</html>
