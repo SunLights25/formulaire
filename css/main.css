@@ -1,5 +1,5 @@
 /* theme css */
-@import url(./reset.css);
+@import url(./reset.css);/*pokemon*/
 :root{
     --bg-color-main: #202124;
     --bg-color-form: #303134;
